@@ -1,0 +1,19 @@
+# Render Blueprint: Dashboard -> New -> Blueprint -> pick this repository.
+services:
+  - type: web
+    name: optifarm
+    runtime: docker
+    plan: free
+    region: singapore # closest Render region to Tamil Nadu
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      # Optional. Without it the app runs with sample seeds and the offline assistant.
+      # Render asks for the value when you create the Blueprint; it stays server-side.
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: ANTHROPIC_MODEL
+        value: claude-sonnet-5-5
+      - key: AI_RATE_LIMIT_PER_MINUTE
+        value: "20"

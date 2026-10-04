@@ -1,0 +1,338 @@
+{
+  "_meta": {
+    "version": 1,
+    "note": "Indicative values compiled from publicly available ICAR / TNAU Agritech Portal / FAO-56 guidance for Tamil Nadu conditions. Verify locally before use. Tamil and Hindi strings are machine-assisted and need native-speaker review."
+  },
+  "crops": [
+    {
+      "id": "paddy",
+      "name_en": "Paddy (Rice)",
+      "name_ta": "நெல்",
+      "name_hi": "धान",
+      "season": ["Kharif", "Rabi"],
+      "sowing_window": { "start_month": 6, "end_month": 9 },
+      "duration_days": 120,
+      "spacing_cm": { "row": 20, "plant": 15 },
+      "water_need_mm_total": 1200,
+      "growth_stages": [
+        { "stage": "initial", "days": 25, "kc": 1.05 },
+        { "stage": "development", "days": 30, "kc": 1.2 },
+        { "stage": "mid", "days": 40, "kc": 1.2 },
+        { "stage": "late", "days": 25, "kc": 0.9 }
+      ],
+      "heat_tolerance_max_c": 38,
+      "suitable_soils": ["clay", "clay_loam", "alluvial"],
+      "stop_irrigation_days_before_harvest": 10,
+      "harvest_indicators": {
+        "en": ["80-85% of grains turn golden yellow", "Grains are hard when bitten", "Lower leaves dry"],
+        "ta": ["80-85% நெல்மணிகள் பொன்னிறமாகும்", "மணிகளைக் கடித்தால் கடினமாக இருக்கும்", "கீழ் இலைகள் காய்ந்துவிடும்"],
+        "hi": ["80-85% दाने सुनहरे पीले हो जाएँ", "दाँत से दबाने पर दाना सख्त लगे", "निचली पत्तियाँ सूख जाएँ"]
+      },
+      "post_harvest_tip": {
+        "en": "Dry grain to 12-14% moisture before storage; store in clean, raised gunny bags away from walls.",
+        "ta": "சேமிப்பதற்கு முன் நெல்லை 12-14% ஈரப்பதம் வரை உலர்த்தவும்; சுவரிலிருந்து தள்ளி உயர்த்திய சாக்குகளில் வைக்கவும்.",
+        "hi": "भंडारण से पहले दानों को 12-14% नमी तक सुखाएँ; साफ़ बोरियों को दीवार से दूर ऊँचे स्थान पर रखें।"
+      },
+      "seed_description": "Elongated golden-yellow grain in husk, 7-10 mm long, ribbed surface, pointed tips.",
+      "seed_image": "/seeds/paddy.svg",
+      "source_note": "Compiled from ICAR / TNAU / FAO-56 publicly available guidance; verify locally."
+    },
+    {
+      "id": "groundnut",
+      "name_en": "Groundnut",
+      "name_ta": "நிலக்கடலை",
+      "name_hi": "मूंगफली",
+      "season": ["Kharif", "Rabi"],
+      "sowing_window": { "start_month": 6, "end_month": 7 },
+      "duration_days": 105,
+      "spacing_cm": { "row": 30, "plant": 10 },
+      "water_need_mm_total": 500,
+      "growth_stages": [
+        { "stage": "initial", "days": 20, "kc": 0.4 },
+        { "stage": "development", "days": 30, "kc": 1.15 },
+        { "stage": "mid", "days": 40, "kc": 1.15 },
+        { "stage": "late", "days": 15, "kc": 0.6 }
+      ],
+      "heat_tolerance_max_c": 40,
+      "suitable_soils": ["sandy_loam", "red_loam"],
+      "stop_irrigation_days_before_harvest": 15,
+      "harvest_indicators": {
+        "en": ["Leaves turn yellow and drop", "Inner shell shows dark veins", "Pods rattle when shaken"],
+        "ta": ["இலைகள் மஞ்சளாகி உதிரும்", "ஓட்டின் உட்புறம் கருமையான நரம்புகள் தெரியும்", "குலுக்கினால் காய்கள் சத்தமிடும்"],
+        "hi": ["पत्तियाँ पीली होकर गिरने लगें", "छिलके के अंदर काली नसें दिखें", "हिलाने पर फलियाँ खड़कें"]
+      },
+      "post_harvest_tip": {
+        "en": "Dry pods to below 9% moisture quickly to prevent aflatoxin mould; never store damp pods.",
+        "ta": "பூஞ்சை (அஃப்ளாடாக்சின்) தவிர்க்க காய்களை 9% ஈரப்பதத்திற்குக் கீழ் விரைவாக உலர்த்தவும்.",
+        "hi": "एफ्लाटॉक्सिन फफूंद से बचने के लिए फलियों को जल्दी 9% से कम नमी तक सुखाएँ।"
+      },
+      "seed_description": "Oval kernels 10-15 mm with thin pink to reddish-brown papery skin (testa), sometimes split into two halves.",
+      "seed_image": "/seeds/groundnut.svg",
+      "source_note": "Compiled from ICAR / TNAU / FAO-56 publicly available guidance; verify locally."
+    },
+    {
+      "id": "maize",
+      "name_en": "Maize",
+      "name_ta": "மக்காச்சோளம்",
+      "name_hi": "मक्का",
+      "season": ["Kharif", "Rabi"],
+      "sowing_window": { "start_month": 6, "end_month": 9 },
+      "duration_days": 110,
+      "spacing_cm": { "row": 60, "plant": 20 },
+      "water_need_mm_total": 550,
+      "growth_stages": [
+        { "stage": "initial", "days": 20, "kc": 0.3 },
+        { "stage": "development", "days": 35, "kc": 1.2 },
+        { "stage": "mid", "days": 40, "kc": 1.2 },
+        { "stage": "late", "days": 15, "kc": 0.35 }
+      ],
+      "heat_tolerance_max_c": 38,
+      "suitable_soils": ["loam", "red_loam", "alluvial"],
+      "stop_irrigation_days_before_harvest": 15,
+      "harvest_indicators": {
+        "en": ["Husks turn pale and dry", "Black layer forms at kernel base", "Kernels are hard and glossy"],
+        "ta": ["தோல் உறைகள் வெளிறி காய்ந்துவிடும்", "மணியின் அடியில் கருப்பு அடுக்கு தோன்றும்", "மணிகள் கடினமாகவும் பளபளப்பாகவும் இருக்கும்"],
+        "hi": ["भुट्टे का छिलका पीला और सूखा हो जाए", "दाने के आधार पर काली परत बने", "दाने सख्त और चमकदार हों"]
+      },
+      "post_harvest_tip": {
+        "en": "Shell and dry cobs to 12% moisture; store in airtight bins to avoid weevils.",
+        "ta": "கதிர்களை உதிர்த்து 12% ஈரப்பதம் வரை உலர்த்தி, வண்டு தாக்காமல் காற்றுப்புகா கலன்களில் சேமிக்கவும்.",
+        "hi": "दाने निकालकर 12% नमी तक सुखाएँ; घुन से बचाने के लिए हवाबंद डिब्बों में रखें।"
+      },
+      "seed_description": "Yellow to orange flat tooth-shaped (dent) kernel 8-12 mm with a lighter pointed tip and small embryo mark.",
+      "seed_image": "/seeds/maize.svg",
+      "source_note": "Compiled from ICAR / TNAU / FAO-56 publicly available guidance; verify locally."
+    },
+    {
+      "id": "tomato",
+      "name_en": "Tomato",
+      "name_ta": "தக்காளி",
+      "name_hi": "टमाटर",
+      "season": ["Rabi", "Kharif"],
+      "sowing_window": { "start_month": 11, "end_month": 1 },
+      "duration_days": 120,
+      "spacing_cm": { "row": 60, "plant": 45 },
+      "water_need_mm_total": 600,
+      "growth_stages": [
+        { "stage": "initial", "days": 25, "kc": 0.6 },
+        { "stage": "development", "days": 35, "kc": 1.15 },
+        { "stage": "mid", "days": 40, "kc": 1.15 },
+        { "stage": "late", "days": 20, "kc": 0.8 }
+      ],
+      "heat_tolerance_max_c": 35,
+      "suitable_soils": ["sandy_loam", "red_loam", "loam"],
+      "stop_irrigation_days_before_harvest": 7,
+      "harvest_indicators": {
+        "en": ["Fruit turns from green to pink (breaker stage) for distant markets", "Fully red for local sale", "Fruit gives slightly when pressed"],
+        "ta": ["தொலை சந்தைக்கு பச்சையிலிருந்து இளஞ்சிவப்பாக மாறும்போது பறிக்கவும்", "உள்ளூர் விற்பனைக்கு முழு சிவப்பு", "அழுத்தினால் சற்று மென்மையாக இருக்கும்"],
+        "hi": ["दूर के बाज़ार के लिए हरे से गुलाबी होने पर तोड़ें", "स्थानीय बिक्री के लिए पूरा लाल", "दबाने पर फल थोड़ा नरम लगे"]
+      },
+      "post_harvest_tip": {
+        "en": "Harvest in the cool morning, grade, and pack in ventilated crates in shade; avoid stacking more than 3 layers.",
+        "ta": "குளிர்ந்த காலையில் பறித்து, தரம் பிரித்து, காற்றோட்டமுள்ள பெட்டிகளில் நிழலில் வைக்கவும்; 3 அடுக்குக்கு மேல் அடுக்க வேண்டாம்.",
+        "hi": "ठंडी सुबह में तोड़ें, छँटाई करें और हवादार क्रेट में छाया में रखें; 3 परतों से अधिक न लगाएँ।"
+      },
+      "seed_description": "Small flat round to kidney-shaped cream/beige seed 3-4 mm, fuzzy hairy surface.",
+      "seed_image": "/seeds/tomato.svg",
+      "source_note": "Compiled from ICAR / TNAU / FAO-56 publicly available guidance; verify locally."
+    },
+    {
+      "id": "chilli",
+      "name_en": "Chilli",
+      "name_ta": "மிளகாய்",
+      "name_hi": "मिर्च",
+      "season": ["Rabi"],
+      "sowing_window": { "start_month": 9, "end_month": 11 },
+      "duration_days": 150,
+      "spacing_cm": { "row": 60, "plant": 45 },
+      "water_need_mm_total": 650,
+      "growth_stages": [
+        { "stage": "initial", "days": 30, "kc": 0.6 },
+        { "stage": "development", "days": 40, "kc": 1.05 },
+        { "stage": "mid", "days": 60, "kc": 1.05 },
+        { "stage": "late", "days": 20, "kc": 0.9 }
+      ],
+      "heat_tolerance_max_c": 38,
+      "suitable_soils": ["black_cotton", "loam", "red_loam"],
+      "stop_irrigation_days_before_harvest": 10,
+      "harvest_indicators": {
+        "en": ["Green chilli: full-sized, glossy fruits", "Dry chilli: fruits turn deep red and start wrinkling"],
+        "ta": ["பச்சை மிளகாய்: முழு அளவு, பளபளப்பான காய்கள்", "வற்றல் மிளகாய்: அடர் சிவப்பாகி சுருங்கத் தொடங்கும்"],
+        "hi": ["हरी मिर्च: पूरे आकार के चमकदार फल", "सूखी मिर्च: फल गहरे लाल होकर सिकुड़ने लगें"]
+      },
+      "post_harvest_tip": {
+        "en": "Sun-dry red chilli on clean tarpaulin (not bare soil) to 10% moisture to keep colour and avoid mould.",
+        "ta": "நிறம் காக்கவும் பூஞ்சை தவிர்க்கவும் சிவப்பு மிளகாயை வெறும் மண்ணில் அல்ல, சுத்தமான தார்ப்பாயில் 10% ஈரப்பதம் வரை உலர்த்தவும்.",
+        "hi": "रंग बनाए रखने और फफूंद से बचने के लिए लाल मिर्च को ज़मीन पर नहीं, साफ़ तिरपाल पर 10% नमी तक सुखाएँ।"
+      },
+      "seed_description": "Flat, disc to kidney-shaped pale yellow seed 3-5 mm, smooth surface, thicker rim.",
+      "seed_image": "/seeds/chilli.svg",
+      "source_note": "Compiled from ICAR / TNAU / FAO-56 publicly available guidance; verify locally."
+    },
+    {
+      "id": "ragi",
+      "name_en": "Ragi (Finger Millet)",
+      "name_ta": "கேழ்வரகு",
+      "name_hi": "रागी",
+      "season": ["Kharif", "Rabi"],
+      "sowing_window": { "start_month": 6, "end_month": 8 },
+      "duration_days": 110,
+      "spacing_cm": { "row": 22, "plant": 10 },
+      "water_need_mm_total": 350,
+      "growth_stages": [
+        { "stage": "initial", "days": 20, "kc": 0.3 },
+        { "stage": "development", "days": 30, "kc": 1.0 },
+        { "stage": "mid", "days": 40, "kc": 1.0 },
+        { "stage": "late", "days": 20, "kc": 0.3 }
+      ],
+      "heat_tolerance_max_c": 40,
+      "suitable_soils": ["red_loam", "sandy_loam", "loam"],
+      "stop_irrigation_days_before_harvest": 15,
+      "harvest_indicators": {
+        "en": ["Ear heads turn brown", "Grains are hard and dry", "Leaves start to yellow"],
+        "ta": ["கதிர்கள் பழுப்பு நிறமாகும்", "மணிகள் கடினமாகவும் உலர்ந்தும் இருக்கும்", "இலைகள் மஞ்சளாகத் தொடங்கும்"],
+        "hi": ["बालियाँ भूरी हो जाएँ", "दाने सख्त और सूखे हों", "पत्तियाँ पीली होने लगें"]
+      },
+      "post_harvest_tip": {
+        "en": "Ragi stores well for years if dried properly; keep in airtight containers in a dry room.",
+        "ta": "சரியாக உலர்த்தினால் கேழ்வரகு பல ஆண்டுகள் கெடாது; உலர்ந்த அறையில் காற்றுப்புகா கலனில் வைக்கவும்.",
+        "hi": "अच्छी तरह सुखाने पर रागी वर्षों तक सुरक्षित रहती है; सूखे कमरे में हवाबंद बर्तन में रखें।"
+      },
+      "seed_description": "Tiny round reddish-brown to brick-red grains about 1-2 mm, very uniform, slightly glossy.",
+      "seed_image": "/seeds/ragi.svg",
+      "source_note": "Compiled from ICAR / TNAU / FAO-56 publicly available guidance; verify locally."
+    },
+    {
+      "id": "cotton",
+      "name_en": "Cotton",
+      "name_ta": "பருத்தி",
+      "name_hi": "कपास",
+      "season": ["Kharif"],
+      "sowing_window": { "start_month": 8, "end_month": 9 },
+      "duration_days": 165,
+      "spacing_cm": { "row": 75, "plant": 30 },
+      "water_need_mm_total": 700,
+      "growth_stages": [
+        { "stage": "initial", "days": 30, "kc": 0.35 },
+        { "stage": "development", "days": 45, "kc": 1.15 },
+        { "stage": "mid", "days": 55, "kc": 1.15 },
+        { "stage": "late", "days": 35, "kc": 0.6 }
+      ],
+      "heat_tolerance_max_c": 43,
+      "suitable_soils": ["black_cotton", "clay_loam", "alluvial"],
+      "stop_irrigation_days_before_harvest": 20,
+      "harvest_indicators": {
+        "en": ["Bolls burst open fully", "Lint is fluffy and dry", "Pick every 7-10 days"],
+        "ta": ["காய்கள் முழுமையாக வெடித்திருக்கும்", "பஞ்சு மென்மையாகவும் உலர்ந்தும் இருக்கும்", "7-10 நாளுக்கு ஒருமுறை எடுக்கவும்"],
+        "hi": ["टिंडे पूरी तरह खुल जाएँ", "रुई फूली और सूखी हो", "हर 7-10 दिन पर चुनाई करें"]
+      },
+      "post_harvest_tip": {
+        "en": "Pick only dry, open bolls after dew dries; keep kapas clean and store in cotton (not plastic) bags.",
+        "ta": "பனி காய்ந்த பின் உலர்ந்த, திறந்த காய்களை மட்டும் எடுக்கவும்; பிளாஸ்டிக் அல்ல, துணிப் பைகளில் சேமிக்கவும்.",
+        "hi": "ओस सूखने के बाद केवल सूखे खुले टिंडे चुनें; कपास को प्लास्टिक नहीं, कपड़े की बोरियों में रखें।"
+      },
+      "seed_description": "Ovoid dark brown seed 8-10 mm, often covered with white fuzzy lint (fuzz).",
+      "seed_image": "/seeds/cotton.svg",
+      "source_note": "Compiled from ICAR / TNAU / FAO-56 publicly available guidance; verify locally."
+    },
+    {
+      "id": "sugarcane",
+      "name_en": "Sugarcane",
+      "name_ta": "கரும்பு",
+      "name_hi": "गन्ना",
+      "season": ["Annual"],
+      "sowing_window": { "start_month": 12, "end_month": 2 },
+      "duration_days": 365,
+      "spacing_cm": { "row": 90, "plant": 30 },
+      "water_need_mm_total": 1800,
+      "growth_stages": [
+        { "stage": "initial", "days": 50, "kc": 0.4 },
+        { "stage": "development", "days": 70, "kc": 1.25 },
+        { "stage": "mid", "days": 190, "kc": 1.25 },
+        { "stage": "late", "days": 55, "kc": 0.75 }
+      ],
+      "heat_tolerance_max_c": 40,
+      "suitable_soils": ["loam", "clay_loam", "alluvial"],
+      "stop_irrigation_days_before_harvest": 30,
+      "harvest_indicators": {
+        "en": ["Leaves yellow and dry", "Cane sounds metallic when tapped", "Brix reading above 18%"],
+        "ta": ["இலைகள் மஞ்சளாகி காய்ந்துவிடும்", "தட்டினால் உலோக ஒலி கேட்கும்", "பிரிக்ஸ் அளவு 18%க்கு மேல்"],
+        "hi": ["पत्तियाँ पीली और सूखी हों", "थपथपाने पर धातु जैसी आवाज़", "ब्रिक्स 18% से अधिक"]
+      },
+      "post_harvest_tip": {
+        "en": "Crush within 24 hours of cutting; sugar recovery drops quickly after harvest.",
+        "ta": "வெட்டிய 24 மணி நேரத்திற்குள் அரைக்கவும்; தாமதித்தால் சர்க்கரை அளவு விரைவாகக் குறையும்.",
+        "hi": "कटाई के 24 घंटे के भीतर पेराई करें; देरी से चीनी की मात्रा तेज़ी से घटती है।"
+      },
+      "seed_description": "Cane stem cutting (sett) with 2-3 nodes, buds and root bands visible; not a true seed.",
+      "seed_image": "/seeds/sugarcane.svg",
+      "source_note": "Compiled from ICAR / TNAU / FAO-56 publicly available guidance; verify locally."
+    },
+    {
+      "id": "brinjal",
+      "name_en": "Brinjal (Eggplant)",
+      "name_ta": "கத்தரிக்காய்",
+      "name_hi": "बैंगन",
+      "season": ["Kharif", "Rabi"],
+      "sowing_window": { "start_month": 6, "end_month": 7 },
+      "duration_days": 140,
+      "spacing_cm": { "row": 60, "plant": 60 },
+      "water_need_mm_total": 600,
+      "growth_stages": [
+        { "stage": "initial", "days": 30, "kc": 0.6 },
+        { "stage": "development", "days": 40, "kc": 1.05 },
+        { "stage": "mid", "days": 45, "kc": 1.05 },
+        { "stage": "late", "days": 25, "kc": 0.9 }
+      ],
+      "heat_tolerance_max_c": 37,
+      "suitable_soils": ["sandy_loam", "loam", "clay_loam"],
+      "stop_irrigation_days_before_harvest": 5,
+      "harvest_indicators": {
+        "en": ["Fruits are glossy and full-sized", "Seeds still soft when cut", "Pick every 4-5 days"],
+        "ta": ["காய்கள் பளபளப்பாகவும் முழு அளவிலும் இருக்கும்", "வெட்டினால் விதைகள் மென்மையாக இருக்கும்", "4-5 நாளுக்கு ஒருமுறை பறிக்கவும்"],
+        "hi": ["फल चमकदार और पूरे आकार के हों", "काटने पर बीज नरम हों", "हर 4-5 दिन पर तुड़ाई करें"]
+      },
+      "post_harvest_tip": {
+        "en": "Harvest in the morning, keep in shade and sell within 2-3 days; dull fruits fetch lower prices.",
+        "ta": "காலையில் பறித்து நிழலில் வைத்து 2-3 நாளுக்குள் விற்கவும்; பளபளப்பு குறைந்தால் விலை குறையும்.",
+        "hi": "सुबह तोड़ें, छाया में रखें और 2-3 दिन में बेचें; फीके फलों का दाम कम मिलता है।"
+      },
+      "seed_description": "Small flat kidney-shaped light brown seed 3-4 mm, smooth, slightly shiny.",
+      "seed_image": "/seeds/brinjal.svg",
+      "source_note": "Compiled from ICAR / TNAU / FAO-56 publicly available guidance; verify locally."
+    },
+    {
+      "id": "blackgram",
+      "name_en": "Black Gram (Urad)",
+      "name_ta": "உளுந்து",
+      "name_hi": "उड़द",
+      "season": ["Rabi", "Zaid"],
+      "sowing_window": { "start_month": 1, "end_month": 3 },
+      "duration_days": 75,
+      "spacing_cm": { "row": 30, "plant": 10 },
+      "water_need_mm_total": 300,
+      "growth_stages": [
+        { "stage": "initial", "days": 15, "kc": 0.4 },
+        { "stage": "development", "days": 25, "kc": 1.05 },
+        { "stage": "mid", "days": 25, "kc": 1.05 },
+        { "stage": "late", "days": 10, "kc": 0.35 }
+      ],
+      "heat_tolerance_max_c": 40,
+      "suitable_soils": ["clay_loam", "loam", "black_cotton"],
+      "stop_irrigation_days_before_harvest": 10,
+      "harvest_indicators": {
+        "en": ["80% of pods turn black", "Pods are dry and crisp", "Harvest before pods shatter"],
+        "ta": ["80% காய்கள் கருப்பாக மாறும்", "காய்கள் உலர்ந்து நொறுங்கும் நிலை", "காய்கள் வெடிப்பதற்கு முன் அறுவடை செய்யவும்"],
+        "hi": ["80% फलियाँ काली हो जाएँ", "फलियाँ सूखी और कुरकुरी हों", "फलियाँ चटकने से पहले कटाई करें"]
+      },
+      "post_harvest_tip": {
+        "en": "Dry seeds to 9-10% moisture; mix with neem leaves or store in hermetic bags against pulse beetle.",
+        "ta": "விதைகளை 9-10% ஈரப்பதம் வரை உலர்த்தவும்; வண்டு தாக்காமல் வேப்பிலை கலந்து அல்லது காற்றுப்புகா பைகளில் சேமிக்கவும்.",
+        "hi": "दानों को 9-10% नमी तक सुखाएँ; दाल के घुन से बचाने के लिए नीम पत्ती मिलाएँ या हवाबंद थैलों में रखें।"
+      },
+      "seed_description": "Small oblong black seed 3-5 mm with a distinct raised white hilum (eye) stripe.",
+      "seed_image": "/seeds/blackgram.svg",
+      "source_note": "Compiled from ICAR / TNAU / FAO-56 publicly available guidance; verify locally."
+    }
+  ]
+}

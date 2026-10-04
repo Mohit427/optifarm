@@ -1,0 +1,21 @@
+{
+  "rain_skip_threshold_mm": 5,
+  "effective_rain_factor": 0.8,
+  "effective_rain_min_mm": 2,
+  "zone_factor_critical": 1.25,
+  "zone_factor_moderate": 1.0,
+  "zone_factor_healthy": 0.8,
+  "zone_factor_waterlogged": 0,
+  "efficiency_flood": 0.45,
+  "efficiency_drip": 0.85,
+  "efficiency_precision": 0.9,
+  "pump_head_m": 30,
+  "pump_efficiency": 0.55,
+  "grid_tariff_inr_per_kwh": 4.5,
+  "solar_marginal_inr_per_kwh": 0,
+  "diesel_litres_per_kwh": 0.3,
+  "diesel_price_inr_per_litre": 92,
+  "solar_threshold_wm2": 400,
+  "unscheduled_solar_share": 0.4,
+  "min_irrigation_mm": 0.5
+}

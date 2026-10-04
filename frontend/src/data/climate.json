@@ -1,0 +1,7 @@
+{
+  "_note": "Indicative Tamil Nadu monthly climatology used only for the season-long what-if simulation (the 7-day plan uses the live forecast). ET0 from FAO-56 style estimates for interior TN; rainfall from long-term state averages (SW + NE monsoon). Solar hours = typical hours/day with shortwave >= 400 W/m2.",
+  "et0_mm_day": [4.0, 4.8, 5.6, 6.0, 6.2, 5.6, 5.1, 5.0, 4.7, 4.0, 3.4, 3.4],
+  "rain_mm_month": [25, 15, 15, 40, 60, 50, 70, 100, 110, 180, 180, 80],
+  "solar_hours_day": [6, 6.5, 6.5, 6.5, 6, 5, 5, 5, 5, 4, 3.5, 4.5],
+  "rain_event_mm": 12
+}
